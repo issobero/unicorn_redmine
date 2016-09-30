@@ -1,5 +1,11 @@
-= Redmine
+= Unicorn Redmine
 
-Redmine is a flexible project management web application written using Ruby on Rails framework.
+通常のRedmine構築に加え、以下コマンドでUnicornでRedmineが起動します。
+Port番号：8089
 
-More details can be found in the doc directory or on the official website http://www.redmine.org
+bundle exec unicorn_rails -E production -c config/unicorn.rb -D
+
+nginxのProxy設定で設定も可能
+Capistranoでデプロイやお手軽再起動もできます。
+
+aaaa
