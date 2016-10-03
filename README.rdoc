@@ -7,5 +7,3 @@ bundle exec unicorn_rails -E production -c config/unicorn.rb -D
 
 nginxのProxy設定で設定も可能
 Capistranoでデプロイやお手軽再起動もできます。
-
-aaaa
